@@ -1,0 +1,21 @@
+1) Create Signup Screen Wizard Page (use redux form and validation)
+  -> First screen take input from user : 
+     -> First Name, (required) 
+     -> Last Name, (optional) 
+     -> Address, (required) 
+     -> City (required)
+     -> Gender ( Radio)
+     -> Age range (Dropdown)
+
+  -> Second Screen User can upload Image & show selected image on screen (Required) 
+
+  -> Third screen take input from user: 
+     -> Email (Should be unique) validate on type
+     -> Password (Required) 
+     -> Conf Password (Match with Password value) 
+
+  -> Fourth Screen Review singup, it will show all inputed value And Image 
+     -> After submit store all user's details locally & show toast message ('signup success') 
+     -> Redirect to first screen 
+
+Note: Offline storage app (Use local storage), there is no API. User also can edit preview screen details by using back button on Header.  After completing test you need to share code on Github repo
